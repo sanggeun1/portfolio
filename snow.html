@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <title>곽상근 - 포트폴리오</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="사이트 설명" />
+    <meta name="keywords" content="사이트 키워" />
+    <meta name="robots" content="index,follow">
+
+
+    <!-- 사용자 기본 CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+
+    <!-- 제이쿼리 3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- 사용자 기본 JS  -->
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="inner">
+            <p>Scroll Down<br>
+                For<br>
+                Snow!</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<script>
+    
+var parallax = document.getElementById("outer");
+var speed = -1;
+
+window.onscroll = function() {
+  var yOffset = window.pageYOffset;
+  parallax.style.backgroundPosition = "0px " + (yOffset / speed) + "px";
+}
+</script>
+<style>
+    body {
+        background-color: #3589B6;
+    }
+
+    #outer {
+        background-image: url(images/tset.jpg);
+    }
+
+    #inner {
+        background-image: url(images/tset.jpg);
+        text-align: center;
+        padding: 10px;
+        font-size: 3em;
+        line-height: 1.5em;
+        font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 2px rgba(black, 0.5);
+
+        height: 1000px;
+        color: white;
+    }
+
+</style>

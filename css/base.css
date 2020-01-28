@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+table {border-collapse:collapse; margin:0; padding:0; width:100%;}
+td {margin:0; padding:0;}
+div, p, ul, ol, li {margin:0; padding:0; list-style:none;}
+
+.bold {font-weight:bold !important;}
+.clear:after {clear:both; content:" "; display:block;}
+.show {display:block;}
+.hide {display:none;}
+.op_show {opacity:1 !important;}
+.op_hide {opacity:0 !important;}
+.imgs {width: 100% !important; height:auto !important;}
+.imgs2 {width: auto !important; height:200px !important;}
+.rel {position:relative !important;}
+.abs {position:absolute !important;}
+.fix {position:fixed !important;}
+.btns {cursor:pointer !important;}
+.fll{float: left;}
+.flr{float: right;}
+.marzero{margin: 0px !important;}
+/*폰트크기 0으로 변경*/
+.font-zero{font-size: 0px !important;}
+.font-13{font-size: 13px !important;}
+/*width:50으로 변경*/
+.wid_50{width:50px !important;}
+/*마진 0 으로 변경*/
+.mar-zero{margin: 0px !important;}
+.pad-zero{padding: 0px !important;}
+
+/*세로 가운데 정렬*/
+
+.vm{position: absolute; top: 50%; transform: translateY(-50%);}
+
+::-webkit-input-placeholder { color: #ccc; }
+:-moz-placeholder { color: #ccc; }
+::-moz-placeholder { color: #ccc; }
+:-ms-input-placeholder { color: #ccc; } 
+
+
+
+
+
